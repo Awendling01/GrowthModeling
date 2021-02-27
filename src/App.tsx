@@ -27,7 +27,7 @@ const App = () => {
 	const poopGrowth = calcPoops(numberOfDays, startingPoops, growthRate / 100);
 
 	return (
-		<div className="App">
+		<div>
 			<div>
 				<input
 					min={0}
